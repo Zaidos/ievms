@@ -163,7 +163,7 @@ check_ext_pack() {
 
 # Download and install `unar` from Google Code.
 install_unar() {
-    local url="http://theunarchiver.googlecode.com/files/unar1.5.zip"
+    local url="https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/theunarchiver/unar1.5.zip"
     local archive=`basename "${url}"`
 
     download "unar" "${url}" "${archive}" "fbf544d1332c481d7d0f4e3433fbe53b"
